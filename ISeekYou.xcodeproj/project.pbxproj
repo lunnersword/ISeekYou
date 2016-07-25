@@ -24,7 +24,6 @@
 		59264FAD1B692172006D7E5D /* profile_man32.png in Resources */ = {isa = PBXBuildFile; fileRef = 59264FAC1B692172006D7E5D /* profile_man32.png */; };
 		59264FAF1B692179006D7E5D /* profile_woman32.png in Resources */ = {isa = PBXBuildFile; fileRef = 59264FAE1B692179006D7E5D /* profile_woman32.png */; };
 		593D571A1B6FC80900F36104 /* LineReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 593D57191B6FC80900F36104 /* LineReceiver.m */; };
-		593D57211B70E9F400F36104 /* DataReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 593D57201B70E9F400F36104 /* DataReceiver.m */; };
 		593D57231B70F79500F36104 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D57221B70F79500F36104 /* TestViewController.swift */; };
 		598130D91B665638000B6286 /* triangleDown16.png in Resources */ = {isa = PBXBuildFile; fileRef = 598130D31B665638000B6286 /* triangleDown16.png */; };
 		598130DA1B665638000B6286 /* triangleDown24.png in Resources */ = {isa = PBXBuildFile; fileRef = 598130D41B665638000B6286 /* triangleDown24.png */; };
@@ -127,7 +126,6 @@
 		593D57161B6FC73C00F36104 /* ISeekYou-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISeekYou-Bridging-Header.h"; sourceTree = "<group>"; };
 		593D57191B6FC80900F36104 /* LineReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineReceiver.m; sourceTree = "<group>"; };
 		593D571D1B6FC88300F36104 /* LineReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineReceiver.h; sourceTree = "<group>"; };
-		593D57201B70E9F400F36104 /* DataReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReceiver.m; sourceTree = "<group>"; };
 		593D57221B70F79500F36104 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		598130D31B665638000B6286 /* triangleDown16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleDown16.png; sourceTree = "<group>"; };
 		598130D41B665638000B6286 /* triangleDown24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleDown24.png; sourceTree = "<group>"; };
@@ -230,7 +228,6 @@
 				59B9B2ED1B725975000836AE /* MessageHandle.m */,
 				593D571D1B6FC88300F36104 /* LineReceiver.h */,
 				593D57191B6FC80900F36104 /* LineReceiver.m */,
-				593D57201B70E9F400F36104 /* DataReceiver.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -550,7 +547,6 @@
 				59BF29B91B9562D700C0109F /* TabBarController.swift in Sources */,
 				59E1BF031B6249EC00AFB625 /* ContactsViewController.swift in Sources */,
 				59E1BEFF1B6249EC00AFB625 /* AppDelegate.swift in Sources */,
-				593D57211B70E9F400F36104 /* DataReceiver.m in Sources */,
 				59F220621B8D610B0038FC49 /* LoginViewController.swift in Sources */,
 				598130E21B665DE0000B6286 /* ChatTableCell.swift in Sources */,
 				59264FA51B6918CD006D7E5D /* RegisterViewController.swift in Sources */,

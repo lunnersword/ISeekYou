@@ -43,21 +43,16 @@
 }
 @synthesize delegate;
 
-static LineReceiver *instance = nil;
 
 + (LineReceiver*)sharedLineReceiver {
-	instance = [self lineReceiverWithHost:@"127.0.0.1" myPort:7777];
-	return instance;
+	return [self lineReceiverWithHost:@"127.0.0.1" myPort:7777];
 }
 + (LineReceiver*)lineReceiverWithHost:(NSString *)host myPort:(unsigned int)port {
 	static LineReceiver *localInstance = nil;
-//	static dispatch_once_t predicate;//static 变量只进行一次初始化
-//	dispatch_once(&predicate, ^{
-//		instance = [ [self alloc] initWithHost:host port:port];
-//	});
-	if (instance == nil) {
-		instance = [ [self alloc] initWithHost:host port:port];
-	}
+	static dispatch_once_t predicate;//static 变量只进行一次初始化
+	dispatch_once(&predicate, ^{
+		localInstance = [ [self alloc] initWithHost:host port:port];
+	});
 	return localInstance;
 }
 
